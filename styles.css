@@ -1,2 +1,26 @@
+#box {
+    width: 50%;
+    height: 50%;
+    background-color: grey;
+}
 
-/* Your CSS Code here. */
+.moviePic {
+    width: 100%;
+    height: 50%;
+    opacity: 1;
+}
+
+.movieDetail {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: medium;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
